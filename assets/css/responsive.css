@@ -1,0 +1,83 @@
+/* for moblie width<740px */
+
+@media only screen and (max-width: 46.1875em) {
+    .s-full-width,
+    .s-col-full {
+        width: 100%;
+    }
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+    #nav>li {
+        display: block;
+    }
+    #nav>li:first-child {
+        display: inline-block;
+    }
+    #nav li a {
+        padding: 1px 24px;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333 !important;
+        width: 448%;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #header .menu-btn {
+        display: block;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #content .avatar {
+        width: 60%;
+    }
+    .contact-form {
+        margin-top: 32px !important;
+    }
+}
+
+
+/* tablet and moblie  */
+
+@media only screen and (max-width: 1023px) {
+    .btn {
+        padding: 15px 18px;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+    }
+    #footer .social-list a {
+        font-size: 48px;
+        margin: 0 8px;
+    }
+    #footer .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+    .contact-info {
+        line-height: 2;
+    }
+    .contact-submit-btn {
+        font-size: 17px;
+    }
+}
+
+
+/* for table width>=740px and <1024px  */
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {}
+
+
+/*  for pc* >=1024px */
+
+@media only screen and (min-width: 64em) {}
